@@ -1,0 +1,15 @@
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: movie
+
+---
+spring:
+  data:
+    mongodb:
+      host: http://myRandomDatabase.org
+      port: 27017
+      database: movie
+  profiles: test
